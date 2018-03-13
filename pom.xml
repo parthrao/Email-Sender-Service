@@ -17,30 +17,6 @@
 			</plugin>
 		</plugins>
 	</build>
-		<repositories>
-		<repository>
-			<id>releases</id>
-			<name>Internal Release Repository</name>
-			<url>http://maxdalauto03.maxim-ic.internal:8080/nexus/content/repositories/releases/</url>
-		</repository>
-		<repository>
-			<id>snapshots</id>
-			<name>Internal Snapshot Repository</name>
-			<url>http://maxdalauto03.maxim-ic.internal:8080/nexus/content/repositories/snapshots/</url>
-		</repository>
-	</repositories>
-	<distributionManagement>
-		<repository>
-			<id>releases</id>
-			<name>Internal Release Repository</name>
-			<url>http://maxdalauto03.maxim-ic.internal:8080/nexus/content/repositories/releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>Internal Snapshot Repository</name>
-			<url>http://maxdalauto03.maxim-ic.internal:8080/nexus/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>Core</groupId>
